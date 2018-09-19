@@ -1,93 +1,75 @@
 /**************************HTML***************************/
 html{
   width: 100%;
-  height: 10%;
+  height: 100%;
 }
 /**************************TABLE**************************/
 table{
   width: 100%;
-  height: 100%;
+  height: 10%;
 }
+#table1{
+  width: 100%;
+  height: 8%;
+}
+#table2{
+  width: 100%;
+  height: 15%;
+}
+#table3{
+  width: 100%;
+  height: 15%;
+}
+#table4{
+   width: 100%;
+   height: 30%;
+ }
 /**********************BODY NTH OF TYPE*******************/
 body{
   margin: 0 0 0 0!important;
-}
-body:nth-last-of-type(1){
   display: inline;
-  height: 10% !important;
-}
-body:nth-last-of-type(2){
-  display: inline;
-  height: 15% !important;
-}
-body:nth-last-of-type(3){
-  display: inline;
-  height: 15% !important;
-}
-body:nth-last-of-type(4){
-  display: inline;
-  height: 30% !important;
 }
 /*************************LIGNE 1*************************/
-.ligne1{
-  height: 10%;
-}
 .ligne1colonne1{
   background-color: #00C843;
   width: 70%;
-  height: 10%;
 }
 .ligne1colonne2{
   background-color: #007FC8;
   width: 30%;
-  height: 10%;
 }
 /*************************LIGNE 2*************************/
-.ligne2{
-  height: 15%;
-}
 .ligne2colonne1{
   background-color: #EF2424;
   width: 34%;
-  height: 15%;
 }
 .ligne2colonne2{
   background-color: #F67A0E;
   width: 33%;
-  height: 15%;
 }
 .ligne2colonne3{
   background-color: #C7C0BA;
   width: 33%;
-  height: 15%;
 }
 /*************************LIGNE 3*************************/
-.ligne3{
-  height: 15%;
-}
 .ligne3colonne1{
   background-color: #EF2424;
   width: 34%;
-  height: 15%;
 }
 .ligne3colonne2{
   background-color: #EABC22;
   width: 22%;
-  height: 15%;
 }
 .ligne3colonne3{
   background-color: #51DB9F;
   width: 22%;
-  height: 15%;
 }
 .ligne3colonne4{
   background-color: #FE7700;
   width: 22%;
-  height: 15%;
 }
 /*************************LIGNE 4*************************/
 .ligne4{
   background-color: #030E57;
   width: 100%;
-  height: 30%;
 }
